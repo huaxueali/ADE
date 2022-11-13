@@ -18,7 +18,7 @@ else echo "openmpi-4.1.4.tar.gz not downloaded!"
 fi
 
 if [ ! -n "$openmpdir" ];then
-     echo "Erro: not a valid directory.";
+     echo "Erro: not a valid directory."
      exit 1
 fi
 
